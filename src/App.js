@@ -5,6 +5,7 @@ import Inline from './Components/Inline';
 import Form from './Components/Form';
 import LifecycleA from './Components/LifecycleA';
 import ClickCounter from './Components/ClickCounter';
+import Hovered from './Components/HoverCounter';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
     //<Inline/>
     //<Form/>
    // <LifecycleA/>
-   <ClickCounter/>
+   //<ClickCounter/>
+   <Hovered/>
   );
 }
 
